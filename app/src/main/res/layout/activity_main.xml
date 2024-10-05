@@ -21,13 +21,32 @@
 
         <TextView
             android:id="@+id/welcomeMessage"
-            android:layout_width="206dp"
-            android:layout_height="63dp"
-            android:text="Welcome "
+            android:layout_width="238dp"
+            android:layout_height="95dp"
+            android:text="Welcome to J.A APP "
             android:textAlignment="center"
             android:textColor="#060000"
             android:textSize="34sp"
             android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/registeredUsersMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Take a look at our registered users"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:layout_below="@id/welcomeMessage"
+            android:layout_centerHorizontal="true" />
+
+        <ListView
+            android:id="@+id/usersListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registeredUsersMessage"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true" />
     </RelativeLayout>
 
     <include

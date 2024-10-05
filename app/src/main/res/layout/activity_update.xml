@@ -1,7 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:padding="16dp">
 
@@ -12,7 +12,7 @@
         android:background="?attr/colorPrimary"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:navigationIcon="@drawable/ic_arrow_back"
-        app:title="Register" />
+        app:title="CRUD" />
 
     <EditText
         android:id="@+id/cedula"
@@ -52,10 +52,10 @@
         android:layout_marginBottom="16dp" />
 
     <Button
-        android:id="@+id/submitRegister"
+        android:id="@+id/submitUpdate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
-        android:text="Register" />
+        android:text="Update" />
 
 </LinearLayout>

@@ -39,4 +39,6 @@ dependencies {
     androidTestImplementation libs.espresso.core
     compileOnly libs.lombok
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation libs.commons.logging.api
+    implementation libs.org.jbundle.util.osgi.wrapped.org.apache.http.client
 }
