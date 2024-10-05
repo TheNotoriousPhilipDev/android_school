@@ -82,6 +82,8 @@ public class LoginActivity extends AppCompatActivity {
                             Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                             intent.putExtra("username", username.getText().toString());
                             startActivity(intent);
+                            Toast.makeText(LoginActivity.this, "Student not permitted", Toast.LENGTH_LONG).show();
+
                         }
                     } else {
                         Toast.makeText(LoginActivity.this, "Invalid username or password", Toast.LENGTH_LONG).show();
