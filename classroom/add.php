@@ -6,7 +6,7 @@ $db_name = "classroom_bd"; // Cambiado a "classrom_bd"
 $username = "root";
 $pass = "";
 $conn = mysqli_connect($host, $username, $pass) 
-or trigger_error(mysqli_error($conn), E_USER_ERROR);
+
 mysqli_select_db($conn, $db_name);
 
 /* Getting the values from the form. */
